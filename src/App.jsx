@@ -6,7 +6,7 @@ import Search from "./pages/search/Search";
 
 function App() {
   return (
-    <HashRouter>
+    <HashRoute>
       <Routes>
         <Route path="/" element={<Browse />} />
         <Route path="/search" element={<Search />} />
